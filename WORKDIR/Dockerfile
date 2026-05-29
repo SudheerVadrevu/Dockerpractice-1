@@ -1,4 +1,4 @@
 FROM almalinux:9
 RUN mkdir sudheer
-RUN cd /sudheer
+WORKDIR  /sudheer
 CMD ["sleep", "100"]
